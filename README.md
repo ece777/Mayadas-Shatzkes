@@ -4,10 +4,9 @@ This phenomenon is relevant in polycrystalyne thin metal wires used in memristor
 The material properties are hardcoded into the script.
 The result is saved into a *.csv file.
 
+result is saved in a 6-column .csv file in this format.
 column_1   column_2   column_3   column_4    column_5   column_6 
 index      w          ratio_MS   rho_MS      rho_gb     rho_bulk
-
-[1:i; w; ratio_MS; rho_MS; rho_gb; rho_bulk*ones(1,i)]
 
 Octave v4.4.1
 
